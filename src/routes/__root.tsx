@@ -79,12 +79,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ParkFlow — Real-time parking slot booking" },
-      { name: "description", content: "Find and reserve parking slots in real time. Live availability, quick booking, and easy management." },
-      { property: "og:title", content: "ParkFlow — Real-time parking slot booking" },
-      { property: "og:description", content: "Find and reserve parking slots in real time. Live availability, quick booking, and easy management." },
+      { title: "ParkFlow — Live parking availability" },
+      { name: "description", content: "See real-time parking slot availability. Reserve a spot in seconds." },
+      { property: "og:title", content: "ParkFlow — Live parking availability" },
+      { property: "og:description", content: "See real-time parking slot availability. Reserve a spot in seconds." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "ParkFlow — Live parking availability" },
+      { name: "twitter:description", content: "See real-time parking slot availability. Reserve a spot in seconds." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/30244891-0c59-4cc6-ad14-d30289146909/id-preview-34da4ecc--5fd07581-e606-4ad6-9c45-dcd30ddb3a48.lovable.app-1783140680501.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/30244891-0c59-4cc6-ad14-d30289146909/id-preview-34da4ecc--5fd07581-e606-4ad6-9c45-dcd30ddb3a48.lovable.app-1783140680501.png" },
     ],
     links: [
       {
