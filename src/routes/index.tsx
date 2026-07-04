@@ -165,7 +165,7 @@ function Dashboard() {
         <BookingDialog
           slot={selectedSlot}
           open={!!selectedSlot}
-          onOpenChange={(o) => !o && setSelectedSlot(null)}
+        onOpenChange={(o: boolean) => !o && setSelectedSlot(null)}
         />
       )}
     </div>
